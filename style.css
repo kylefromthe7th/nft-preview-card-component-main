@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: hsl(215, 51%, 70%);
+
+    height: 100vh;
+}
+
+.container{
+    width: 21rem;
+    height: 35rem;
+    background-color: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    padding: 1.3rem;
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 3.7rem;
+    left: 22rem;
+}
+
+.nft-image img{
+    max-height: 100%;
+    width: 18.5rem;
+    border-radius: 1rem;
+}
+
+h2{
+    padding-top: 0.5rem;
+    margin-bottom: 1.3rem;
+    color: hsl(0, 0%, 100%);
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+
+.nft-image p{
+    display: inline-block;
+    margin: 5rem;
+}
+
+.eth p, .time p{
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+}
+
+.eth, .time{
+    display:flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 0.7rem;
+    margin-bottom: 1.1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+    margin-top: 1rem;
+}
+
+.footer img{
+    max-height: 100%;
+    width: 2rem;
+
+    border:#fff solid 0.01rem;
+    border-radius: 50rem;
+
+    margin-right: 1.2rem;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:active, a:focus, a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+
+
+ @media (max-width: 27rem){
+
+
+    .body{
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(216, 91%, 48%);
+    }
+
+    .container{
+        width: 2rem;
+        height: 20rem;
+        margin: 0 auto;
+        padding: 1.3rem;
+        border-radius: 1rem;
+        
+        position: relative;
+        top: 9rem;
+        left: 2rem;
+        right: 7rem;
+       
+    }
+    
+
+    .nft-image img{
+        max-height: 100%;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+
+    h2{
+        padding-top: 0.5rem;
+        color:  hsl(0, 0%, 100%);
+    }
+
+    .footer img{
+        width: 2rem;
+    
+        margin-right: 0.8rem;
+    }
+
+    .info{
+        margin-top: 1.2rem;
+        margin-bottom: 1.1rem;
+    }
+    
+}
+
+@media (max-width:39rem){
+
+    .body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container{
+        width: 23rem;
+        height: 38rem;
+        margin: 0 auto;
+        padding: 1.3rem;
+        border-radius: 1rem;
+        
+        position: relative;
+        top: 7.5rem;
+        left: 1.2rem;
+      
+    }
+
+    
+    .nft-image img{
+        max-height: 100%;
+        width: 20.2rem;
+        border-radius: 1rem;
+    }
+
+    h2{
+        padding-top: 0.5rem;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .footer img{
+        width: 2.2rem;
+    
+        margin-right: 1rem;
+    }
+
+    .info{
+        margin-top: 1.4rem;
+        margin-bottom: 1.3rem;
+    }
+    
+    
+}
+
+
+
+
+/* .nft-image{ 
+    position: relative;
+}
+
+.nft-image svg{
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    size: 100%;
+}
+
+.nft-image svg:hover, .nft-image svg:active{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: linear-gradient(hsla(178, 100%, 50%, 80%), hsla(178, 100%, 50%,80%) );
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.nft-image img:hover{ 
+    fill: hsla(178, 100%, 50%, 80%);
+}
+*/
